@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build using Makefile with optimization"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": ["clean"],
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Build Clean"
+        },
+        {
+            "label": "copy",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": ["copy"],
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Build and Copy"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "mingw32-make",
+            "args": ["run"],
+            "group": "none",
+            "problemMatcher": []
+        }
+    ]
+}
