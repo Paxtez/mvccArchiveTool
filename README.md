@@ -1,6 +1,10 @@
 # MVCC Archive Tool
 
-This tool is designed to extract or create AFS/IBIS files used in the **Marvel vs. Capcom Collection**.
+- This tool is designed to extract or create AFS/IBIS files used in the **Marvel vs. Capcom Collection**.
+
+- The AFS/IBIS archive files are contained within the .ARC files.  Use Fluffyquack's ArcTool to extract them:
+https://residentevilmodding.boards.net/thread/481/
+
 
 ## Features
 - **Extract AFS/IBIS files** from the MVC Collection.
@@ -30,4 +34,4 @@ To create an AFS/IBIS archive from a directory:
 - Windows OS
 
 ## License
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
