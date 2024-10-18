@@ -4,7 +4,7 @@ CXX = g++
 PROGRAM_NAME = mvccArchiveTool
 
 # Define the flags
-CXXFLAGS = -Os -std=c++17 -U__STRICT_ANSI__
+CXXFLAGS = -Os -std=c++17 -static-libstdc++ -static-libgcc
 
 # Define the source files
 SRCS = src/$(PROGRAM_NAME).cpp src/mvccFileLogic.cpp
